@@ -16,3 +16,4 @@ A proof of concept of a branching model driven by FlexDeploy webhooks.
 - Opening a pull request from the feature branch to a `release/*` branch closes the draft. Only one pull request per feature branch stays open, and the one to a release branch wins.
 - A later push to the feature branch adds a comment to its release pull request listing the files that push changed, and resets the approval.
 - `release/*` branches need one approving review; a new push dismisses earlier approvals.
+
