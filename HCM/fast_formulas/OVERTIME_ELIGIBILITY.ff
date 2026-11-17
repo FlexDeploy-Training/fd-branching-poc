@@ -1,0 +1,9 @@
+/* Sample fast formula for the POC */
+DEFAULT FOR ASG_HOURS IS 0
+
+IF ASG_HOURS > 40 THEN
+  ELIGIBLE = 'Y'
+ELSE
+  ELIGIBLE = 'N'
+
+RETURN ELIGIBLE

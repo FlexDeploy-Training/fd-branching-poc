@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataModel xmlns="http://xmlns.oracle.com/oxp/xmlp" version="2.0" defaultDataSourceRef="ApplicationDB_HCM">
+  <dataSets>
+    <dataSet name="EMPLOYEES" type="simple">
+      <sql><![CDATA[SELECT person_number, display_name, department_name
+FROM   sample_employee_v
+WHERE  effective_date = :p_as_of_date]]></sql>
+    </dataSet>
+  </dataSets>
+  <parameters>
+    <parameter name="p_as_of_date" dataType="xsd:date"/>
+  </parameters>
+</dataModel>

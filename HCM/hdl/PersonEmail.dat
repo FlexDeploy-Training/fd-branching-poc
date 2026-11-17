@@ -1,0 +1,2 @@
+METADATA|PersonEmail|SourceSystemOwner|SourceSystemId|PersonId(SourceSystemId)|EmailType|EmailAddress
+MERGE|PersonEmail|SAMPLE|EML_1001|WRK_1001|W1|worker1001@example.com
