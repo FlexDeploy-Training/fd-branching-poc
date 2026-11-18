@@ -1,0 +1,21 @@
+name: Validate manifests
+on:
+  push:
+    paths:
+      - 'features/*.json'
+      - 'releases/*.json'
+      - 'manifest.schema.json'
+      - '.github/workflows/validate-manifests.yml'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate every manifest against manifest.schema.json
+        run: |
+          set -eu
+          files=$(git ls-files 'features/*.json' 'releases/*.json')
+          if [ -z "$files" ]; then echo 'No manifests yet'; exit 0; fi
+          pipx run --spec check-jsonschema==0.39.0 check-jsonschema --schemafile manifest.schema.json $files

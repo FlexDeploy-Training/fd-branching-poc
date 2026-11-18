@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GitHub POC manifest",
+  "description": "The document in a pull request's fd-manifest block and in the manifest store, written by LIB_GITHUB_POC_MANIFEST.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "kind", "name", "branch", "pullRequest", "commit", "cause", "truncated", "projects", "unmapped"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "kind": { "enum": ["feature", "release"] },
+    "name": { "type": "string", "pattern": "^[A-Za-z0-9.-]+$" },
+    "branch": { "type": "string", "pattern": "^(feat|release)/[A-Za-z0-9.-]+$" },
+    "pullRequest": { "type": "integer", "minimum": 1 },
+    "commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
+    "cause": { "enum": ["push", "edit", "flexdeploy", "release-refresh"] },
+    "truncated": { "type": "boolean" },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["folder", "projectId", "package", "files"],
+        "properties": {
+          "folder": { "type": "string", "pattern": "^[^/]+$" },
+          "projectId": { "type": "integer" },
+          "package": { "type": "string", "pattern": "^[A-Za-z0-9.-]+$" },
+          "files": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "pattern": "^[^/]+/.+" } }
+        }
+      }
+    },
+    "unmapped": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^[^/]+/.+" } }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "kind": { "const": "feature" } } },
+      "then": { "properties": { "branch": { "pattern": "^feat/" } } },
+      "else": { "properties": { "branch": { "pattern": "^release/" } } }
+    }
+  ]
+}
