@@ -4,7 +4,7 @@
   "name": "PI3-R032-0823",
   "branch": "feat/PI3-R032-0823",
   "pullRequest": 20,
-  "commit": "ae8125f3e511ed845fef1fe0c60a08c119e76b73",
+  "commit": "5cc09b797c3122cacea712d6bffc66326b9c57f7",
   "cause": "push",
   "truncated": false,
   "projects": [
@@ -14,6 +14,14 @@
       "package": "PI3-R032-0823",
       "files": [
         "OIC/lookups/R032_0823.csv"
+      ]
+    },
+    {
+      "folder": "db_VB",
+      "projectId": 10439,
+      "package": "PI3-R032-0823",
+      "files": [
+        "db_VB/views/R032_0823_V.sql"
       ]
     }
   ],
