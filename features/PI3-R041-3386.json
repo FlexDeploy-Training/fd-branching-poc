@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "kind": "feature",
+  "name": "PI3-R041-3386",
+  "branch": "feat/PI3-R041-3386",
+  "pullRequest": 43,
+  "commit": "4e130c41a9bb094371d8ee0bddfed488b61165f3",
+  "cause": "push",
+  "truncated": false,
+  "projects": [
+    {
+      "folder": "HCM",
+      "projectId": 10421,
+      "package": "PI3-R041-3386",
+      "files": [
+        "HCM/hdl/R041_3386_A.dat"
+      ]
+    },
+    {
+      "folder": "OIC",
+      "projectId": 10403,
+      "package": "PI3-R041-3386",
+      "files": [
+        "OIC/lookups/R041_3386_A.csv"
+      ]
+    }
+  ],
+  "unmapped": []
+}
