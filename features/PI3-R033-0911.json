@@ -4,7 +4,7 @@
   "name": "PI3-R033-0911",
   "branch": "feat/PI3-R033-0911",
   "pullRequest": 23,
-  "commit": "405cffc31ae4049b29a246b5ae520d128a2b96d4",
+  "commit": "77f45d47e7c18203de2a333a97193843010149ee",
   "cause": "push",
   "truncated": false,
   "projects": [
@@ -14,6 +14,14 @@
       "package": "PI3-R033-0911",
       "files": [
         "OIC/lookups/R033_Z.csv"
+      ]
+    },
+    {
+      "folder": "db_VB",
+      "projectId": 10439,
+      "package": "PI3-R033-0911",
+      "files": [
+        "db_VB/views/R033_SAMPLE_V.sql"
       ]
     }
   ],
