@@ -1,0 +1,3 @@
+METADATA|JobGrade|GradeCode|GradeName
+MERGE|JobGrade|G10|Associate
+MERGE|JobGrade|G20|Senior Associate
