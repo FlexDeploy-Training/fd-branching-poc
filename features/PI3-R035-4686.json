@@ -4,8 +4,8 @@
   "name": "PI3-R035-4686",
   "branch": "feat/PI3-R035-4686",
   "pullRequest": 27,
-  "commit": "48dfdeb1f730c18b2542f7e9fd940998f9fce574",
-  "cause": "flexdeploy",
+  "commit": "59e91ee87f355278cb409a614e777fb36800a17a",
+  "cause": "push",
   "truncated": false,
   "projects": [
     {
@@ -13,8 +13,9 @@
       "projectId": 10403,
       "package": "PI3-R035-4686",
       "files": [
+        "OIC/lookups/R035_4686_A.csv",
         "OIC/lookups/R035_4686_B.csv",
-        "OIC/lookups/R035_4686_A.csv"
+        "OIC/lookups/R035_4686_C.csv"
       ]
     }
   ],
