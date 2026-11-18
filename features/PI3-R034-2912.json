@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "feature",
+  "name": "PI3-R034-2912",
+  "branch": "feat/PI3-R034-2912",
+  "pullRequest": 31,
+  "commit": "ef26cf8206696d8da9c275e760336067643fd4e9",
+  "cause": "push",
+  "truncated": false,
+  "projects": [],
+  "unmapped": [
+    "notes/R034-clash.md"
+  ]
+}
