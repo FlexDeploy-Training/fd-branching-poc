@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "kind": "feature",
+  "name": "PI3-R028-6043",
+  "branch": "feat/PI3-R028-6043",
+  "pullRequest": 19,
+  "commit": "548e8dfbcfcff13e91f934f7ced7e97886d8d069",
+  "cause": "push",
+  "truncated": false,
+  "projects": [
+    {
+      "folder": "OIC",
+      "projectId": 10403,
+      "package": "PI3-R028-6043",
+      "files": [
+        "OIC/lookups/R028_A_6043.csv",
+        "OIC/lookups/R028_B_6043.csv"
+      ]
+    }
+  ],
+  "unmapped": []
+}
