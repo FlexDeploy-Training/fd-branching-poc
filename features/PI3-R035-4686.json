@@ -13,8 +13,8 @@
       "projectId": 10403,
       "package": "PI3-R035-4686",
       "files": [
-        "OIC/lookups/R035_4686_C.csv",
         "OIC/lookups/R035_4686_A.csv",
+        "OIC/lookups/R035_4686_C.csv",
         "OIC/lookups/R035_4686_B.csv"
       ]
     }
