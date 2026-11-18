@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "kind": "release",
+  "name": "2027-02-03",
+  "branch": "release/2027-02-03",
+  "pullRequest": 41,
+  "commit": "b11e8c4e41888e447783389d22470811c27243b3",
+  "cause": "release-refresh",
+  "truncated": false,
+  "projects": [
+    {
+      "folder": "OIC",
+      "projectId": 10403,
+      "package": "2027-02-03",
+      "files": [
+        "OIC/lookups/R040_6731_A.csv",
+        "OIC/lookups/R040_6731_B.csv",
+        "OIC/lookups/R040_6731_B436.csv"
+      ]
+    }
+  ],
+  "unmapped": []
+}
