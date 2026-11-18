@@ -4,7 +4,7 @@
   "name": "PI3-R040-6731",
   "branch": "feat/PI3-R040-6731",
   "pullRequest": 39,
-  "commit": "c6c8356f6d03ecc270b66bad9274aa2f1e252006",
+  "commit": "e219a3b15efa01415a7b9ddbf8e45beb3f2830f0",
   "cause": "push",
   "truncated": false,
   "projects": [
@@ -14,7 +14,8 @@
       "package": "PI3-R040-6731",
       "files": [
         "OIC/lookups/R040_6731_A.csv",
-        "OIC/lookups/R040_6731_B.csv"
+        "OIC/lookups/R040_6731_B.csv",
+        "OIC/lookups/R040_6731_B436.csv"
       ]
     }
   ],
