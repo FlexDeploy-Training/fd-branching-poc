@@ -4,18 +4,10 @@
   "name": "2027-03-05",
   "branch": "release/2027-03-05",
   "pullRequest": 45,
-  "commit": "b824f275b9702b1b1dfc761dd17f75316a4b2612",
+  "commit": "e03b85bbe89d23499f6396d4ec05b5f0220b6e87",
   "cause": "release-refresh",
   "truncated": false,
   "projects": [
-    {
-      "folder": "HCM",
-      "projectId": 10421,
-      "package": "2027-03-05",
-      "files": [
-        "HCM/hdl/R041_3386_A.dat"
-      ]
-    },
     {
       "folder": "OIC",
       "projectId": 10403,
