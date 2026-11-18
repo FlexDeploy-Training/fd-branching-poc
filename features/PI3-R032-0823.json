@@ -5,7 +5,7 @@
   "branch": "feat/PI3-R032-0823",
   "pullRequest": 20,
   "commit": "c8d4cb260aa353012a8ba3e931e618342b958a4f",
-  "cause": "push",
+  "cause": "edit",
   "truncated": false,
   "projects": [
     {
@@ -13,7 +13,8 @@
       "projectId": 10403,
       "package": "PI3-R032-0823",
       "files": [
-        "OIC/lookups/R032_0823.csv"
+        "OIC/lookups/R032_0823.csv",
+        "OIC/lookups/HR_MAP.csv"
       ]
     },
     {
