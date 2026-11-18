@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "kind": "feature",
+  "name": "PI3-R035-4686",
+  "branch": "feat/PI3-R035-4686",
+  "pullRequest": 27,
+  "commit": "35f9ab05e2ca77c98cbfe51218a8c15055d7ee04",
+  "cause": "push",
+  "truncated": false,
+  "projects": [
+    {
+      "folder": "OIC",
+      "projectId": 10403,
+      "package": "PI3-R035-4686",
+      "files": [
+        "OIC/lookups/R035_4686_A.csv"
+      ]
+    }
+  ],
+  "unmapped": []
+}
