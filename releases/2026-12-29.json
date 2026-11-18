@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "release",
+  "name": "2026-12-29",
+  "branch": "release/2026-12-29",
+  "pullRequest": 36,
+  "commit": "ea949e52fb7f82dd0bc543259a8cb89701b220a9",
+  "cause": "release-refresh",
+  "truncated": false,
+  "projects": [],
+  "unmapped": [
+    "notes/R034-clash.md"
+  ]
+}
