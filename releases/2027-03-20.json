@@ -5,7 +5,7 @@
   "branch": "release/2027-03-20",
   "pullRequest": 34,
   "commit": "c876cb50b33309ab6e079ecf20119f9348a0a8cc",
-  "cause": "release-refresh",
+  "cause": "flexdeploy",
   "truncated": false,
   "projects": [
     {
@@ -13,8 +13,8 @@
       "projectId": 10403,
       "package": "2027-03-20",
       "files": [
-        "OIC/lookups/R035_1761_A.csv",
-        "OIC/lookups/R035_1761_B.csv"
+        "OIC/lookups/R035_1761_B.csv",
+        "OIC/lookups/R035_1761_A.csv"
       ]
     }
   ],
