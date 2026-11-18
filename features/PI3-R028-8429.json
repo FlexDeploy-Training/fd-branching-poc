@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "kind": "feature",
+  "name": "PI3-R028-8429",
+  "branch": "feat/PI3-R028-8429",
+  "pullRequest": 17,
+  "commit": "301692d1d9ffd0749d33ba17f381d4a9020e7817",
+  "cause": "push",
+  "truncated": false,
+  "projects": [
+    {
+      "folder": "OIC",
+      "projectId": 10403,
+      "package": "PI3-R028-8429",
+      "files": [
+        "OIC/lookups/R028_A.csv",
+        "OIC/lookups/R028_B.csv"
+      ]
+    }
+  ],
+  "unmapped": []
+}
