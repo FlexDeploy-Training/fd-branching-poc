@@ -5,7 +5,7 @@
   "branch": "feat/PI3-R035-1117",
   "pullRequest": 29,
   "commit": "94c47467f3a9edbf078aa8b31ab5b9416b00f703",
-  "cause": "push",
+  "cause": "flexdeploy",
   "truncated": false,
   "projects": [
     {
@@ -13,8 +13,8 @@
       "projectId": 10403,
       "package": "PI3-R035-1117",
       "files": [
-        "OIC/lookups/R035_1117_A.csv",
-        "OIC/lookups/R035_1117_B.csv"
+        "OIC/lookups/R035_1117_B.csv",
+        "OIC/lookups/R035_1117_A.csv"
       ]
     }
   ],
