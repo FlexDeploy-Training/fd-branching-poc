@@ -33,8 +33,11 @@
   "allOf": [
     {
       "if": { "properties": { "kind": { "const": "feature" } } },
-      "then": { "properties": { "branch": { "pattern": "^feat/" } } },
-      "else": { "properties": { "branch": { "pattern": "^release/" } } }
+      "then": {
+        "properties": { "branch": { "pattern": "^feat/" } },
+        "not": { "properties": { "name": { "pattern": "^\\d{4}-\\d{2}-\\d{2}(-hotfix)?$" } }, "required": ["name"] }
+      },
+      "else": { "properties": { "branch": { "pattern": "^release/\\d{4}-\\d{2}-\\d{2}(-hotfix)?$" }, "name": { "pattern": "^\\d{4}-\\d{2}-\\d{2}(-hotfix)?$" } } }
     }
   ]
 }
