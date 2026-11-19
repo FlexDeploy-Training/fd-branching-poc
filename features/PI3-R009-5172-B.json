@@ -5,7 +5,7 @@
   "branch": "feat/PI3-R009-5172-B",
   "pullRequest": 64,
   "commit": "36ede475978dd3660c9604f8381a133ba6e66012",
-  "cause": "push",
+  "cause": "edit",
   "truncated": false,
   "projects": [
     {
@@ -13,8 +13,8 @@
       "projectId": 10403,
       "package": "PI3-R009-5172-B",
       "files": [
-        "OIC/lookups/SAMPLE_PI3-R009-5172-B_20261118221617.csv",
-        "OIC/lookups/SAMPLE_PI3-R009-5172-B_20261118222051.csv"
+        "OIC/lookups/SAMPLE_PI3-R009-5172-B_20261118222051.csv",
+        "OIC/lookups/SAMPLE_PI3-R009-5172-B_20261118221617.csv"
       ]
     }
   ],
