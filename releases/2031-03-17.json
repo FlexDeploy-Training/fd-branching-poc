@@ -5,7 +5,7 @@
   "branch": "release/2031-03-17",
   "pullRequest": 68,
   "commit": "5a70ff68f438ed8878bc34db99b8fa891f35fe92",
-  "cause": "release-refresh",
+  "cause": "flexdeploy",
   "truncated": false,
   "projects": [
     {
