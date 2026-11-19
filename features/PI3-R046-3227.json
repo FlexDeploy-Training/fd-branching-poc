@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "kind": "feature",
+  "name": "PI3-R046-3227",
+  "branch": "feat/PI3-R046-3227",
+  "pullRequest": 52,
+  "commit": "d9b7912a03e51284ca76698448faf7ec1b367db7",
+  "cause": "push",
+  "truncated": false,
+  "projects": [
+    {
+      "folder": "OIC",
+      "projectId": 10403,
+      "package": "PI3-R046-3227",
+      "files": [
+        "OIC/lookups/SAMPLE_PI3-R046-3227_20261118183236.csv"
+      ]
+    }
+  ],
+  "unmapped": []
+}
