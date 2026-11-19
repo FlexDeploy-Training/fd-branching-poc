@@ -4,7 +4,7 @@
   "name": "PI3-R009-5172",
   "branch": "feat/PI3-R009-5172",
   "pullRequest": 61,
-  "commit": "5bfd5a70a7f31b8687d89c0962bc7622f0f44d00",
+  "commit": "7ef2219cf325f420c4c41233310f11025523c5fd",
   "cause": "push",
   "truncated": false,
   "projects": [
@@ -14,6 +14,14 @@
       "package": "PI3-R009-5172",
       "files": [
         "OIC/lookups/SAMPLE_PI3-R009-5172_20261118221613.csv"
+      ]
+    },
+    {
+      "folder": "db_VB",
+      "projectId": 10439,
+      "package": "PI3-R009-5172",
+      "files": [
+        "db_VB/tables/DEMO_PI3-R009-5172.sql"
       ]
     }
   ],
