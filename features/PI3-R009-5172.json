@@ -5,7 +5,7 @@
   "branch": "feat/PI3-R009-5172",
   "pullRequest": 61,
   "commit": "66ffd8203fa8ef2202f635fe7433cce0e8a51d45",
-  "cause": "edit",
+  "cause": "flexdeploy",
   "truncated": false,
   "projects": [
     {
@@ -13,8 +13,8 @@
       "projectId": 10403,
       "package": "PI3-R009-5172",
       "files": [
-        "OIC/lookups/SAMPLE_PI3-R009-5172_20261118222047.csv",
-        "OIC/lookups/SAMPLE_PI3-R009-5172_20261118221613.csv"
+        "OIC/lookups/SAMPLE_PI3-R009-5172_20261118221613.csv",
+        "OIC/lookups/SAMPLE_PI3-R009-5172_20261118222047.csv"
       ]
     },
     {
