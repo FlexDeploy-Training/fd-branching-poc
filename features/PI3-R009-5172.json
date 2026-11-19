@@ -4,7 +4,7 @@
   "name": "PI3-R009-5172",
   "branch": "feat/PI3-R009-5172",
   "pullRequest": 63,
-  "commit": "4b4196d8ecfec72d882d85a401cd9540ce56385e",
+  "commit": "f77d4c27f3e7f2ce93dcbbe7284d2b18932f071c",
   "cause": "push",
   "truncated": false,
   "projects": [
@@ -16,7 +16,8 @@
         "OIC/lookups/SAMPLE_PI3-R009-5172_20261118221613.csv",
         "OIC/lookups/SAMPLE_PI3-R009-5172_20261118222047.csv",
         "OIC/lookups/SAMPLE_PI3-R009-5172_20261118222121.csv",
-        "OIC/lookups/SAMPLE_PI3-R009-5172_20261118222617.csv"
+        "OIC/lookups/SAMPLE_PI3-R009-5172_20261118222617.csv",
+        "OIC/lookups/SAMPLE_PI3-R009-5172_20261118223404.csv"
       ]
     },
     {
