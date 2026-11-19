@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "kind": "release",
+  "name": "2031-03-17",
+  "branch": "release/2031-03-17",
+  "pullRequest": 68,
+  "commit": "2076226aded0f31b34e60986f99111170747df32",
+  "cause": "release-refresh",
+  "truncated": false,
+  "projects": [
+    {
+      "folder": "OIC",
+      "projectId": 10403,
+      "package": "2031-03-17",
+      "files": [
+        "OIC/lookups/SAMPLE_PI3-R009-5172_20261118221613.csv",
+        "OIC/lookups/SAMPLE_PI3-R009-5172_20261118222047.csv",
+        "OIC/lookups/SAMPLE_PI3-R009-5172_20261118222121.csv",
+        "OIC/lookups/SAMPLE_PI3-R009-5172_20261118222617.csv",
+        "OIC/lookups/SAMPLE_PI3-R009-5172_20261118223404.csv",
+        "OIC/lookups/SAMPLE_PI3-R009-5172_20261118223514.csv"
+      ]
+    },
+    {
+      "folder": "db_VB",
+      "projectId": 10439,
+      "package": "2031-03-17",
+      "files": [
+        "db_VB/tables/DEMO_PI3-R009-5172.sql"
+      ]
+    }
+  ],
+  "unmapped": []
+}
