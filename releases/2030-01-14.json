@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "release",
+  "name": "2030-01-14",
+  "branch": "release/2030-01-14",
+  "pullRequest": 60,
+  "commit": "f46c8a7ab7d369299f59d8b40e479d28887d8092",
+  "cause": "release-refresh",
+  "truncated": false,
+  "projects": [
+    {
+      "folder": "OIC",
+      "projectId": 10403,
+      "package": "2030-01-14",
+      "files": [
+        "OIC/lookups/SAMPLE_PI3-R043-4638_20261118202634.csv",
+        "OIC/lookups/SAMPLE_PI3-R043-4638_20261118202629.csv",
+        "OIC/lookups/SAMPLE_PI3-R043-4638_20261118202334.csv",
+        "OIC/lookups/SAMPLE_PI3-R043-4638_20261118202246.csv"
+      ]
+    }
+  ],
+  "unmapped": []
+}
