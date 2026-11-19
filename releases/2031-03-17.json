@@ -4,7 +4,7 @@
   "name": "2031-03-17",
   "branch": "release/2031-03-17",
   "pullRequest": 68,
-  "commit": "2076226aded0f31b34e60986f99111170747df32",
+  "commit": "5a70ff68f438ed8878bc34db99b8fa891f35fe92",
   "cause": "release-refresh",
   "truncated": false,
   "projects": [
@@ -18,7 +18,9 @@
         "OIC/lookups/SAMPLE_PI3-R009-5172_20261118222121.csv",
         "OIC/lookups/SAMPLE_PI3-R009-5172_20261118222617.csv",
         "OIC/lookups/SAMPLE_PI3-R009-5172_20261118223404.csv",
-        "OIC/lookups/SAMPLE_PI3-R009-5172_20261118223514.csv"
+        "OIC/lookups/SAMPLE_PI3-R009-5172_20261118223514.csv",
+        "OIC/lookups/SAMPLE_PI3-R009-5172-B_20261118222051.csv",
+        "OIC/lookups/SAMPLE_PI3-R009-5172-B_20261118221617.csv"
       ]
     },
     {
