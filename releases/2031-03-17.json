@@ -9,6 +9,14 @@
   "truncated": false,
   "projects": [
     {
+      "folder": "db_VB",
+      "projectId": 10439,
+      "package": "2031-03-17",
+      "files": [
+        "db_VB/tables/DEMO_PI3-R009-5172.sql"
+      ]
+    },
+    {
       "folder": "OIC",
       "projectId": 10403,
       "package": "2031-03-17",
@@ -21,14 +29,6 @@
         "OIC/lookups/SAMPLE_PI3-R009-5172_20261118223514.csv",
         "OIC/lookups/SAMPLE_PI3-R009-5172-B_20261118222051.csv",
         "OIC/lookups/SAMPLE_PI3-R009-5172-B_20261118221617.csv"
-      ]
-    },
-    {
-      "folder": "db_VB",
-      "projectId": 10439,
-      "package": "2031-03-17",
-      "files": [
-        "db_VB/tables/DEMO_PI3-R009-5172.sql"
       ]
     }
   ],
