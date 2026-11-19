@@ -4,7 +4,7 @@
   "name": "PI3-R046-4681",
   "branch": "feat/PI3-R046-4681",
   "pullRequest": 54,
-  "commit": "4e642208de39f01d13ec291e5040375e2d06c655",
+  "commit": "f4e5954ab2b8734f1b4187a32524a48cbcf2621c",
   "cause": "push",
   "truncated": false,
   "projects": [
@@ -15,6 +15,14 @@
       "files": [
         "OIC/lookups/SAMPLE_4681_1.csv",
         "OIC/lookups/SAMPLE_PI3-R046-4681_20261118191146.csv"
+      ]
+    },
+    {
+      "folder": "db_VB",
+      "projectId": 10439,
+      "package": "PI3-R046-4681",
+      "files": [
+        "db_VB/views/SAMPLE_4681_W.sql"
       ]
     }
   ],
