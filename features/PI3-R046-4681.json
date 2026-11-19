@@ -4,7 +4,7 @@
   "name": "PI3-R046-4681",
   "branch": "feat/PI3-R046-4681",
   "pullRequest": 54,
-  "commit": "f4e5954ab2b8734f1b4187a32524a48cbcf2621c",
+  "commit": "2daedf2373b6b7a99286824db7542b0966d564ce",
   "cause": "push",
   "truncated": false,
   "projects": [
@@ -22,7 +22,8 @@
       "projectId": 10439,
       "package": "PI3-R046-4681",
       "files": [
-        "db_VB/views/SAMPLE_4681_W.sql"
+        "db_VB/views/SAMPLE_4681_W.sql",
+        "db_VB/views/SAMPLE_4681_X.sql"
       ]
     }
   ],
