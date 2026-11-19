@@ -4,7 +4,7 @@
   "name": "PI3-R046-7422",
   "branch": "feat/PI3-R046-7422",
   "pullRequest": 55,
-  "commit": "d85eb1c40ce2d9cde7ae285e551bab35c9722865",
+  "commit": "554d831121439045fbb160bf628b4b161d4696b8",
   "cause": "push",
   "truncated": false,
   "projects": [
@@ -14,7 +14,8 @@
       "package": "PI3-R046-7422",
       "files": [
         "OIC/lookups/SAMPLE_7422_1.csv",
-        "OIC/lookups/SAMPLE_PI3-R046-7422_20261118192550.csv"
+        "OIC/lookups/SAMPLE_PI3-R046-7422_20261118192550.csv",
+        "OIC/lookups/SAMPLE_PI3-R046-7422_20261118192832.csv"
       ]
     },
     {
