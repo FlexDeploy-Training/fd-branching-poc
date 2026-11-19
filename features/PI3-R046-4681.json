@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "kind": "feature",
+  "name": "PI3-R046-4681",
+  "branch": "feat/PI3-R046-4681",
+  "pullRequest": 54,
+  "commit": "2f1504799d6a3167a0a19415aa569fe2e03e1921",
+  "cause": "push",
+  "truncated": false,
+  "projects": [
+    {
+      "folder": "OIC",
+      "projectId": 10403,
+      "package": "PI3-R046-4681",
+      "files": [
+        "OIC/lookups/SAMPLE_4681_1.csv"
+      ]
+    },
+    {
+      "folder": "db_VB",
+      "projectId": 10439,
+      "package": "PI3-R046-4681",
+      "files": [
+        "db_VB/views/SAMPLE_4681_V.sql"
+      ]
+    }
+  ],
+  "unmapped": []
+}
