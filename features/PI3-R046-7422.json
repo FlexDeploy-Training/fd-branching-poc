@@ -4,7 +4,7 @@
   "name": "PI3-R046-7422",
   "branch": "feat/PI3-R046-7422",
   "pullRequest": 55,
-  "commit": "442f58b868f026c6dc555a990c034133b22e8c71",
+  "commit": "d85eb1c40ce2d9cde7ae285e551bab35c9722865",
   "cause": "push",
   "truncated": false,
   "projects": [
@@ -22,7 +22,8 @@
       "projectId": 10439,
       "package": "PI3-R046-7422",
       "files": [
-        "db_VB/views/SAMPLE_7422_W.sql"
+        "db_VB/views/SAMPLE_7422_W.sql",
+        "db_VB/views/SAMPLE_7422_X.sql"
       ]
     }
   ],
